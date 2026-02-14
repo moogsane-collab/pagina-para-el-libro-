@@ -235,7 +235,7 @@ const StorySection = () => (
         <Quote className="absolute top-8 left-8 w-24 h-24 text-slate-200 opacity-40 -z-0" />
         <div className="relative z-10 space-y-8 text-slate-600 text-lg leading-relaxed">
           <p>
-            Mi nombre es <strong>J. Andres Molano Zuluaga</strong>. Durante gran parte de mi vida, mi realidad fue la disciplina militar. Allí aprendí a combatir enemigos externos, pero me encontré desarmado frente al más letal: <strong>mi propio vacío emocional.</strong>
+            Durante gran parte de mi vida, mi realidad fue la disciplina militar. Allí aprendí a combatir enemigos externos, pero me encontré desarmado frente al más letal: <strong>mi propio vacío emocional.</strong>
           </p>
           <p className="p-8 bg-white shadow-xl border-l-8 border-red-600 italic rounded-r-3xl text-slate-800 font-serif text-xl">
             "Entendí que la verdadera batalla no ocurre afuera, sino en la forma en que percibimos lo que nos pasa."
@@ -319,7 +319,7 @@ const Footer = () => (
         <BookOpen className="w-5 h-5" />
         <span className="font-black text-lg uppercase">SOMBRAS DEL PENSAMIENTO</span>
       </div>
-      <p className="text-[10px] text-slate-300 font-bold uppercase tracking-widest">© {new Date().getFullYear()} J. Andres Molano Zuluaga.</p>
+      <p className="text-[10px] text-slate-300 font-bold uppercase tracking-widest">© {new Date().getFullYear()} Sombras del Pensamiento.</p>
     </div>
   </footer>
 );

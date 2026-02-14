@@ -68,7 +68,7 @@ const Navbar = () => (
         <div className="bg-slate-900 p-1.5 rounded-lg">
           <BookOpen className="w-5 h-5 text-white" />
         </div>
-        <span className="font-extrabold text-lg tracking-tighter text-slate-900">SOMBRAS DEL PENSAMIENTO</span>
+        <span className="font-extrabold text-lg tracking-tighter text-slate-900 uppercase">SOMBRAS DEL PENSAMIENTO</span>
       </div>
       <div className="hidden md:flex items-center gap-8">
         <a href="#story" className="text-sm font-semibold text-slate-600 hover:text-slate-900 transition-colors">La Historia</a>
@@ -86,7 +86,6 @@ const Navbar = () => (
 
 const BookCoverMockup = () => (
   <div className="relative bg-[#fdfdfd] aspect-[3/4] w-full rounded-md shadow-2xl border border-slate-200 overflow-hidden flex flex-col items-center pt-24 pb-16 px-10">
-    {/* Clean, minimalist cover based on provided image */}
     <div className="flex flex-col items-center z-10 w-full">
       <h2 className="text-4xl md:text-5xl font-black text-slate-950 text-center tracking-tight leading-none mb-1">
         SOMBRAS
@@ -100,9 +99,7 @@ const BookCoverMockup = () => (
     </div>
     
     <div className="flex-grow flex items-center justify-center w-full relative -mt-10">
-       {/* Shadow and Head Silhouette recreation */}
        <div className="relative w-full h-full flex items-center justify-center">
-          {/* Subtle drop shadow simulation */}
           <div className="absolute w-40 h-40 bg-slate-300 rounded-full blur-2xl opacity-20 -bottom-10 right-10 -rotate-12"></div>
           
           <svg viewBox="0 0 200 200" className="w-64 h-64 drop-shadow-2xl opacity-90 transform translate-x-4">
@@ -119,7 +116,6 @@ const BookCoverMockup = () => (
                    </feMerge>
                 </filter>
              </defs>
-             {/* Silhouette based on the prompt image */}
              <path 
                 filter="url(#softShadow)"
                 fill="#e5e7eb" 
@@ -248,7 +244,7 @@ const StorySection = () => (
         
         <div className="relative z-10 space-y-8 text-slate-600 text-lg leading-relaxed max-w-3xl mx-auto">
           <p>
-            Mi nombre es <strong>J. Andres Molano Zuluaga</strong>. Durante gran parte de mi vida, mi realidad fue la disciplina férrea del mundo militar. Allí aprendí a combatir enemigos externos, pero me encontré desarmado frente al enemigo más letal: <strong>mi propio vacío emocional.</strong>
+            Durante gran parte de mi vida, mi realidad fue la disciplina férrea del mundo militar. Allí aprendí a combatir enemigos externos, pero me encontré desarmado frente al enemigo más letal: <strong>mi propio vacío emocional.</strong>
           </p>
           <p className="p-8 bg-white shadow-xl shadow-slate-200/40 border-l-8 border-red-600 italic rounded-r-3xl text-slate-800 font-serif text-xl">
             "Entendí que la verdadera batalla no ocurre afuera, sino en la forma en que percibimos lo que nos pasa."
@@ -257,7 +253,7 @@ const StorySection = () => (
             Tras años de búsqueda, descubrí las herramientas para descodificar mis propios nudos. Entendí que la verdadera autonomía no es libertad de movimiento, sino libertad de percepción.
           </p>
           <p className="font-bold text-slate-900 text-xl">
-            He condensado mi transformación en este libro para que tú no tengas que pasar años en la oscuridad.
+            He condensado esta transformación en este libro para que tú no tengas que pasar años en la oscuridad.
           </p>
 
           <div className="pt-8 flex flex-col sm:flex-row items-center gap-12 border-t border-slate-200">
@@ -409,7 +405,7 @@ const Footer = () => (
           <span className="font-black text-lg tracking-tighter text-slate-900 uppercase">SOMBRAS DEL PENSAMIENTO</span>
         </div>
         <p className="text-xs text-slate-400 max-w-xs text-center md:text-left font-medium">
-          Un viaje hacia la autonomía emocional y el bienestar real. Por J. Andres Molano Zuluaga.
+          Un viaje hacia la autonomía emocional y el bienestar real.
         </p>
       </div>
       
@@ -419,7 +415,7 @@ const Footer = () => (
           <a href="#story" className="hover:text-red-600 transition-colors">Historia</a>
           <a href="#offer" className="hover:text-red-600 transition-colors">Donar</a>
         </div>
-        <p className="text-[10px] text-slate-300 font-bold uppercase tracking-widest">© {new Date().getFullYear()} J. Andres Molano Zuluaga.</p>
+        <p className="text-[10px] text-slate-300 font-bold uppercase tracking-widest">© {new Date().getFullYear()} Sombras del Pensamiento.</p>
       </div>
     </div>
   </footer>
